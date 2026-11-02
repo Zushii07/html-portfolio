@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jelajahi cita rasa autentik kopi Indonesia, di Kedai Kopi Nusantara!">
+
+    <link rel="icon" type="image/png" href="Gambar/mainlogo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kontak - Kedai Kopi Nusantara</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xxl rounded-bottom-5 py-1 mx-4 sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html"><img src="Gambar/mainlogo.png" width="100"
+                    alt="Logo Kedai Kopi Nusantara">
+                <p class="d-inline d-none d-sm-inline">Kedai Kopi Nusantara</p>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" aria-current="page">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="kontak" class="container">
+            <h1>Hubungi Kami!</h1>
+
+            <div class="info-kontak p-3">
+                <h2>Informasi Kontak</h2>
+                <ul>
+                    <li>
+                        <img class="img-fluid" src="Gambar/location.svg" alt="icon lokasi">
+                        <p>Jl. Pulang Merdeka No.14, RT.6/RW.1, Konoha, Kecamatan Konohagakure, Kota Konoha
+                            Pusat, Daerah Khusus Ibukota Konoha 10969</p>
+                    </li>
+                    <li>
+                        <img class="img-fluid" src="Gambar/wa.svg" alt="icon whatsapp">
+                        <p><b>WhatsApp:</b><br>0812-4312-4356</p>
+                    </li>
+                    <li>
+                        <img class="img-fluid" src="Gambar/clock.svg" alt="icon jam">
+                        <p><b>Jam Operasional:</b><br>
+                            Senin - Jum'at: 09:00 - 21:00 WIB<br>
+                            Sabtu - Minggu: 08:00 - 23:00 WIB
+                    </li>
+                    <li>
+                        <img class="img-fluid" src="Gambar/social.svg" alt="icon social">
+                        <p>@kopiNusantaraa</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container px-4">
+            <div id="form" class="row gy-5 mt-4">
+                <div class="col-xl-6">
+                    <div class="form-kontak">
+                        <h2>Kirim Pesan</h2>
+                        <form action="#" method="get">
+                            <div class="mb-3">
+                                <label for="FormControlNama" class="form-label">Nama</label>
+                                <input type="text" class="form-control" id="FormControlNama" placeholder="Nama Kamu">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="FormControlEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="FormControlEmail"
+                                    placeholder="nama@example.com">
+                            </div>
+
+                            <label for="FormControlTelepon" class="form-label">Nomor Telepon</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">+62</span>
+                                <input type="tel" class="form-control" placeholder="812-3456-7890"
+                                    id="FormControlTelepon" aria-label="Telepon" aria-describedby="basic-addon1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlPesan" class="form-label">Pesan & Kesan</label>
+                                <textarea class="form-control" id="exampleFormControlPesan"
+                                    placeholder="Masukkan Pesan yang Ingin Kamu Sampaikan Kepada Kedai Kopi Nusantara"
+                                    rows="4"></textarea>
+                            </div>
+
+                            <button type="button" class="btn" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Kirim Pesan!</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Kedai Kopi Nusantara
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Pesan Sudah Terkirim!<br>
+                                            Info lebih lanjut akan dikirim melalui E-Mail.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div id="maps" class="col-xl-6">
+                    <h2>Titik Lokasi Kedai</h2>
+                    <iframe class="container-fluid p-0 mt-2" style="border: 3px solid #4b3e28;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.5132779676999!2d106.61809636990584!3d-6.256734000651217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb56b25975f9%3A0x50c7d605ba8542f5!2sMultimedia%20Nusantara%20University!5e0!3m2!1sen!2sid!4v1789390563404!5m2!1sen!2sid"
+                        width="600" height="500" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="container-fluid">
+        <div class="row m-0 gy-4">
+            <div id="kiri" class="col-md-6">
+                <div class="kiri">
+                    <ul>
+                        <li class="d-flex align-items-start"><img src="Gambar/location.svg" alt="icon lokasi">Jl. Pulang
+                            Merdeka No.14,
+                            RT.63/RW.01, Daerah Khusus Ibukota Konoha 10969</li>
+                        <li><img src="Gambar/clock.svg" alt="icon jam">
+                            <b>Jam Operasional:</b><br><b>Senin - Jum'at:</b> 09:00 - 21:00
+                            WIB<br><b>Sabtu - Minggu:</b> 08:00 - 23:00 WIB
+                        </li>
+                        <li>@kopiNusantaraa</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="kanan" class="col-md-6">
+                <div class="kanan">
+                    <div class="socialfooter">
+                        <div class="iconfoot">
+                            <img src="Gambar/tiktok.svg" alt="logo tiktok">
+                        </div>
+                        <div class="iconfoot">
+                            <img src="Gambar/ig.svg" alt="logo ig">
+                        </div>
+                        <div class="iconfoot">
+                            <img src="Gambar/x.svg" alt="logo x(twitter)">
+                        </div>
+                    </div>
+                    <p>Copyright &copy; 2026 Kedai Kopi Nusantara</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
